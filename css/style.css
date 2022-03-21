@@ -19,9 +19,9 @@ body{
 .top-nav{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px !important;
     max-width: 980px;
-    margin: 0 auto;
+    margin: 0 auto !important;
 }
 .top-nav a{
     text-decoration: none !important;
@@ -55,11 +55,11 @@ body{
 .menu{
     display: flex;
     list-style: none ;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 .menu li{
-    padding: 0 10px;
+    padding: 10px 10px;
     transition: all 0.5s;
 }
 .top-nav .menu li{
@@ -799,7 +799,9 @@ section .section-title {
         padding: 15px 0;
     }
 } */
-
+.margin-staff{
+    margin-top: 100px;
+}
 .row.heading h2 {
     color: #fff;
     font-size: 52.52px;
@@ -940,6 +942,12 @@ ul{
 
 
 .trabajos-grid{
+    width: 100% !important;
+    max-width: initial !important;
+    background-color: #4a4a4a;
+    margin-top: 150px !important;
+}
+.trabajos-tips-grid{
     display: grid;
     grid-template-columns: repeat(15, 1fr);
     width: 90%;
@@ -949,7 +957,9 @@ ul{
     gap: 10px;
     overflow: hidden;
     align-items: center;
+
 }
+
 .trabajos-anuncio{
     font-weight: 600;
     font-size: 60px;
@@ -1016,6 +1026,12 @@ ul{
 .videos-youtube{
     width: 560px;
     height: 315px;
+}
+
+.trabajos-tips1, .trabajos-tips2, .trabajos-tips3 h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #fff4f4;
 }
 
 @media (max-width: 950px){
@@ -1095,6 +1111,7 @@ ul{
     font-weight: 600;
     color: #fff;
     cursor: pointer;
+    transition: all 2s;
 }
 .btnContactSubmit
 {
@@ -1110,14 +1127,17 @@ ul{
 .form-group{
     text-align: center;
 }
-
+.contacto-hover:hover{
+    transform: scale(1.5);
+}
 /* FIN CONTACTO */
 /* footer */
 .footer{
     width: 100%;
-    padding: 50px 0px;
+    padding: 10px 0px;
     background-image: url(../img/background-footer.svg);
     background-size: cover;
+    margin-top: 150px;
 }
 
 .footer a{
