@@ -1032,6 +1032,7 @@ ul{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     color: #fff4f4;
+    transition: all 5s;
 }
 
 @media (max-width: 950px){
