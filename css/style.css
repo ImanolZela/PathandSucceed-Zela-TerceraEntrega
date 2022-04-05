@@ -4,12 +4,12 @@
 }
 
 body {
-  font-family: georgia, times, serif;
+  font-family: georgia;
   padding-top: 110px;
 }
 
 .top-header {
-  background-color: #363535;
+  background-color: #273036;
   box-shadow: 0 4px 5px #636060;
   position: fixed;
   left: 0;
@@ -136,7 +136,7 @@ header .menu li:hover {
   font-weight: bold;
   margin: 0;
   color: #241d1d;
-  font-family: "Noto Sans", sans-serif;
+  font-family: georgia;
   font-size: 60px;
 }
 .section-inicio .perfil-info .perfil-detalles {
@@ -265,9 +265,78 @@ header .menu li:hover {
   }
 }
 
+.footer {
+  width: 100%;
+  padding: 10px 0px;
+  background-image: url(../img/background-footer.svg);
+  background-size: cover;
+}
+.footer a {
+  text-decoration: none !important;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.footer-box .logo-footer h2 {
+  width: 180px;
+}
+.footer-box .terminos {
+  max-width: 350px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #7a7a7a;
+  font-size: 18px;
+}
+.footer-box h2 {
+  margin-bottom: 30px;
+  color: #343434;
+  font-weight: 700;
+}
+.footer-box a {
+  margin-top: 10px;
+  color: #7a7a7a;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+.footer-box a:hover {
+  opacity: 0.8;
+  transform: scale(1.15);
+}
+.footer-box a .fab {
+  font-size: 20px;
+}
+
+.box-copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0 40px;
+}
+.box-copyright p {
+  margin-top: 20px;
+  color: #7a7a7a;
+}
+.box-copyright hr {
+  border: none;
+  height: 1px;
+  background-color: #7a7a7a;
+}
+
 .cta {
   width: 130px;
-  background: #4a4a4a;
+  background: #273036;
   color: #fff4f4;
   display: inline-block;
   text-align: center;
@@ -291,7 +360,7 @@ header .menu li:hover {
   font-weight: bold;
   margin: 0;
   color: #241d1d;
-  font-family: "Noto Sans", sans-serif;
+  font-family: georgia;
   font-size: 60px;
 }
 .section-servicios .servicios-info .servicios-detalles {
@@ -332,7 +401,7 @@ header .menu li:hover {
   }
 }
 #team {
-  background: #4a4a4a !important;
+  background: #273036 !important;
 }
 
 .btn-primary:hover,
@@ -471,7 +540,7 @@ section .section-title {
 }
 
 .row.heading h2 {
-  color: #fff;
+  color: #fff4f4;
   font-size: 52.52px;
   line-height: 95px;
   font-weight: 400;
@@ -518,7 +587,7 @@ ul {
   color: #3c3c3c;
   font-size: 24px;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
   padding: 10px 0;
 }
 
@@ -533,7 +602,7 @@ ul {
 }
 
 .our-webcoderskull {
-  background-color: #4a4a4a;
+  background-color: #273036;
 }
 
 .our-webcoderskull .cnt-block {
@@ -613,7 +682,7 @@ ul {
 .trabajos-grid {
   width: 100% !important;
   max-width: initial !important;
-  background-color: #4a4a4a;
+  background-color: #273036;
   margin-top: 150px !important;
 }
 
@@ -651,7 +720,7 @@ ul {
   flex-wrap: wrap;
 }
 .trabajos-tips-grid h3 {
-  font-family: "Noto Sans", sans-serif;
+  font-family: georgia;
   padding: 35px 0;
   text-align: center;
 }
@@ -662,7 +731,7 @@ ul {
 }
 
 .trabajos-tips1, .trabajos-tips2, .trabajos-tips3 h3 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: georgia;
   font-weight: bold;
   color: #fff4f4;
   transition: all 5s;
@@ -756,75 +825,6 @@ ul {
 
 .contacto-hover:hover {
   transform: scale(1.5);
-}
-
-.footer {
-  width: 100%;
-  padding: 10px 0px;
-  background-image: url(../img/background-footer.svg);
-  background-size: cover;
-}
-.footer a {
-  text-decoration: none !important;
-}
-
-.footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: auto;
-  margin-top: 100px;
-}
-
-.footer-box {
-  display: flex;
-  flex-direction: column;
-  padding: 40px;
-}
-.footer-box .logo-footer h2 {
-  width: 180px;
-}
-.footer-box .terminos {
-  max-width: 350px;
-  margin-top: 20px;
-  font-weight: 500;
-  color: #7a7a7a;
-  font-size: 18px;
-}
-.footer-box h2 {
-  margin-bottom: 30px;
-  color: #343434;
-  font-weight: 700;
-}
-.footer-box a {
-  margin-top: 10px;
-  color: #7a7a7a;
-  font-weight: 600;
-  transition: all 0.5s;
-}
-.footer-box a:hover {
-  opacity: 0.8;
-  transform: scale(1.15);
-}
-.footer-box a .fab {
-  font-size: 20px;
-}
-
-.box-copyright {
-  max-width: 1200px;
-  margin: auto;
-  text-align: center;
-  padding: 0 40px;
-}
-.box-copyright p {
-  margin-top: 20px;
-  color: #7a7a7a;
-}
-.box-copyright hr {
-  border: none;
-  height: 1px;
-  background-color: #7a7a7a;
 }
 
 /*# sourceMappingURL=style.css.map */
