@@ -297,7 +297,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
     margin-top: 100px;
 }
@@ -354,5 +354,10 @@ header{
         background-color: #7a7a7a;
     }
 }
-
+.margin-bottom{
+    margin-bottom: 80px;
+}
+.margin-top{
+    margin-top: 80px;
+}
 //fin footer
